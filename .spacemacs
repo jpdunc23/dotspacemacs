@@ -548,7 +548,7 @@ you should place your code here."
           ("cu" "Unscheduled TODO"
            ((todo ""
                   ((org-agenda-overriding-header "\nUnscheduled TODO")
-                   (org-agenda-skip-function '(org-agenda-skip-entry-if 'scheduled)))))
+                   (org-agenda-skip-function '(org-agenda-skip-entry-if 'scheduled 'deadline)))))
            nil
            nil)))
 
